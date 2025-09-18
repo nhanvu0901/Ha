@@ -9,7 +9,9 @@
     "start": "npx serve . -l 3000",
     "build": "echo 'Static site - no build required'",
     "preview": "npx serve . -l 3000",
-    "test": "echo \"No tests configured\" && exit 0"
+    "test": "echo \"No tests configured\" && exit 0",
+    "deploy": "vercel --prod",
+    "deploy:preview": "vercel"
   },
   "keywords": [
     "invitation",
@@ -19,14 +21,16 @@
     "tracking",
     "analytics",
     "website",
-    "static-site"
+    "static-site",
+    "vercel"
   ],
   "author": "Your Name",
   "license": "MIT",
   "private": true,
   "dependencies": {},
   "devDependencies": {
-    "serve": "^14.2.0"
+    "serve": "^14.2.0",
+    "vercel": "^32.5.0"
   },
   "repository": {
     "type": "git",
@@ -35,10 +39,10 @@
   "bugs": {
     "url": "https://github.com/yourusername/date-invitation/issues"
   },
-  "homepage": "https://github.com/yourusername/date-invitation#readme",
+  "homepage": "https://date-invitation.vercel.app",
   "engines": {
-    "node": ">=14.0.0",
-    "npm": ">=6.0.0"
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
   },
   "browserslist": [
     "> 0.5%",

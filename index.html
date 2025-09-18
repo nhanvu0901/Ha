@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>💕 A Special Invitation For You 💕</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Animated background hearts -->
+<div class="heart-bg" style="top: 10%; left: 10%; font-size: 25px;">💕</div>
+<div class="heart-bg" style="top: 20%; right: 15%; font-size: 20px; animation-delay: 2s;">❤️</div>
+<div class="heart-bg" style="bottom: 30%; left: 5%; font-size: 28px; animation-delay: 4s;">💗</div>
+<div class="heart-bg" style="top: 50%; right: 10%; font-size: 23px; animation-delay: 6s;">💖</div>
+<div class="heart-bg" style="bottom: 10%; right: 20%; font-size: 26px; animation-delay: 8s;">💝</div>
+
+<!-- Main slider container -->
+<div class="slider-container" id="slider">
+    <!-- Slide 1: Invitation Text -->
+    <div class="slide slide1">
+        <div class="slide1-background-image">
+            <img src="test.jpg" alt="">
+            <div class="background-text">I dont have any other image of you</div>
+        </div>
+        <div class="invitation-text">
+            <h1>✨ Hey Beautiful! ✨</h1>
+            <p>
+                I've been thinking... Life's too short not to spend it with amazing people! 🌟<br><br>
+                So here's my question:<br>
+                <span class="date-highlight">Do you want to hang out with me this Saturday?</span><br>
+                I promise it'll be unforgettable! 🎉
+            </p>
+        </div>
+    </div>
+
+    <!-- Slide 2: Image -->
+    <div class="slide slide2">
+        <div class="image-container">
+            <div class="image-placeholder" id="imagePlaceholder">
+                <div>📍</div>
+                <div>Go to the club you want to go?</div>
+                <div style="font-size: 0.8rem; margin-top: 15px; color: #ffcccc;">
+                    <br>
+                    I forgot the name of the club:))))
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 3: Choice -->
+    <div class="slide slide3">
+        <div class="choice-container">
+            <h2>So... What Do You Say? 💕</h2>
+            <div class="choice-buttons">
+                <button class="choice-btn yes-btn" onclick="handleYes()">YES! 😍</button>
+                <button class="choice-btn no-btn" onclick="handleNo()">No 😔</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Navigation dots -->
+<div class="nav-dots">
+    <div class="dot active" onclick="goToSlide(0)"></div>
+    <div class="dot" onclick="goToSlide(1)"></div>
+    <div class="dot" onclick="goToSlide(2)"></div>
+</div>
+
+<!-- Audio control -->
+<div class="audio-control" onclick="toggleAudio()">
+    <span id="audioIcon">🎵</span>
+</div>
+
+<!-- Celebration emoji -->
+<div class="celebration" id="celebration">💕</div>
+
+<!-- Audio element -->
+<audio id="backgroundMusic" loop autoplay muted>
+    <source src="song.mp3" type="audio/mpeg">
+</audio>
+
+<!-- Optional: Privacy Notice -->
+<!-- <div class="privacy-notice" id="privacyNotice">
+    This site collects device information for learning purposes.
+    Your data helps us understand web analytics.
+    <button onclick="acceptPrivacy()">I Understand</button>
+    <a href="/privacy">Learn More</a>
+</div> -->
+
+<!-- External JavaScript -->
+<script src="script.js"></script>
+</body>
+</html>

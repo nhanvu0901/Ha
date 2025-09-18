@@ -1,0 +1,49 @@
+{
+  "name": "romantic-date-invitation",
+  "version": "1.0.0",
+  "description": "A fun and modern date invitation website with advanced analytics",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "dev": "npx serve . -l 3000",
+    "start": "npx serve . -l 3000",
+    "build": "echo 'Static site - no build required'",
+    "preview": "npx serve . -l 3000",
+    "test": "echo \"No tests configured\" && exit 0"
+  },
+  "keywords": [
+    "invitation",
+    "romantic",
+    "date",
+    "interactive",
+    "tracking",
+    "analytics",
+    "website",
+    "static-site"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "serve": "^14.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/date-invitation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/date-invitation/issues"
+  },
+  "homepage": "https://github.com/yourusername/date-invitation#readme",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "Firefox ESR",
+    "not dead"
+  ]
+}

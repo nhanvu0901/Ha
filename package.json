@@ -2,7 +2,7 @@
   "name": "romantic-date-invitation",
   "version": "1.0.0",
   "description": "A fun and modern date invitation website with advanced analytics",
-  "main": "public/index.html",
+  "main": "index.html",
   "type": "module",
   "scripts": {
     "dev": "npx serve . -l 3000",
